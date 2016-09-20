@@ -1,0 +1,47 @@
+
+<div class="mdl-card">
+  <div class="mdl-card__title">
+     <h2 class="mdl-card__title-text">{{detalhe.nomeCompleto}}<br>{{detalhe.numero}}, {{detalhe.partido.sigla}}</h2>
+  </div>
+  <div class="mdl-card__media center">
+    <img ng-src="{{detalhe.fotoUrl}}" width="173" border="0" alt=""
+     style="padding:10px;">
+  </div>
+
+  <div class="mdl-card__supporting-text">
+  Nascimento: {{detalhe.dataDeNascimento  | date:'dd/MM/yyyy'}} <br>
+  Estado Civil: {{detalhe.descricaoEstadoCivil}} <br>
+  Grau de Instrução: {{detalhe.grauInstrucao}} <br>
+  Ocupação: {{detalhe.ocupacao}} <br>
+
+
+  </div>
+  
+</div>
+<div>
+
+<div class="table-responsive-vertical shadow-z-1">
+	<table class="table table-hover">
+	  <thead>
+	    <tr>
+	      <th class="mdl-data-table__cell--non-numeric">Descrição</th>
+	      <th class="mdl-data-table__cell--non-numeric">Tipo</th>
+	      <th>Valor</th>
+	    </tr>
+	  </thead>
+	  <tbody>
+	    <tr ng-repeat="bem in detalhe.bens">
+	      <td class="mdl-data-table__cell--non-numeric">{{bem.descricao}}</td>
+	      <td class="mdl-data-table__cell--non-numeric">{{bem.descricaoDeTipoDeBem}}</td>
+	      <td>{{bem.valor | currency:'R$ '}}</td>
+	    </tr>
+	    <tr>
+	    	<td>
+	    	Total: {{ getTotalBens() | currency:'R$ '}}
+	    	</td>
+	    </tr>
+	  </tbody>
+	</table>
+</div>
+
+<div>

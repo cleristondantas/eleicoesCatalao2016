@@ -1,0 +1,31 @@
+{
+  "name": "eleicao2016",
+  "version": "1.0.0",
+  "description": "aplicacao candidatos de catalao",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "catalao",
+    "goias",
+    "vereadores",
+    "prefeitos",
+    "politicos"
+  ],
+  "author": "Cleriston Dantas",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-autoprefixer": "^3.0.4",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0"
+  },
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-animate": "^1.5.8",
+    "angular-aria": "^1.5.8",
+    "angular-material": "^1.1.1",
+    "angular-route": "^1.5.8"
+  }
+}

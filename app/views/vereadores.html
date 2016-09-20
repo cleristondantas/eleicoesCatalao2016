@@ -1,0 +1,30 @@
+<div ng-cloak layout-gt-sm="row" layout="column">
+<div flex-gt-sm="100" flex>
+<md-toolbar layout="row" class="md-hue-3">
+  <div class="md-toolbar-tools">
+    <span>Vereadores</span>
+  </div>
+</md-toolbar>
+
+<md-content>
+  <md-list flex>
+    <form name="userForm">
+    	<div layout-gt-xs="row">
+          <md-input-container class="md-block" flex-gt-xs>
+            <label>Busca</label>
+            <input ng-model="busca">
+          </md-input-container>
+        </div>
+    </form>
+    <md-list-item class="md-3-line" ng-repeat="vereador in vereadores | filter:busca" ng-click="null" ng-href="#/candidato/{{vereador.id}}">
+      <img ng-src="{{urlFoto}}{{vereador.id}}" class="md-avatar" alt="vereador.nomeUrna" />
+      <div class="md-list-item-text" layout="column">
+        <h3>{{ vereador.nomeUrna }} - {{vereador.numero}}</h3>
+        <h4>{{ vereador.nomeColigacao }}</h4>
+        <p>{{ vereador.partido.sigla }}</p>
+      </div>
+    </md-list-item>
+  </md-list>
+</md-content>
+</div>
+</div>
