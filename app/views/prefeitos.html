@@ -1,30 +1,27 @@
-<div ng-cloak layout-gt-sm="row" layout="column">
-<div flex-gt-sm="100" flex>
-<md-toolbar layout="row" class="md-hue-3">
-  <div class="md-toolbar-tools">
-    <span>Prefeito</span>
-  </div>
-</md-toolbar>
 
-<md-content>
-  <md-list flex>
-  <form name="userForm">
-    	<div layout-gt-xs="row">
-          <md-input-container class="md-block" flex-gt-xs>
-            <label>Busca</label>
-            <input ng-model="busca">
-          </md-input-container>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar">
+            Busca
+            <input ng-model="busca" class="form-control">
         </div>
-    </form>
-    <md-list-item class="md-3-line" ng-repeat="prefeito in prefeitos | filter:busca" ng-click="null" ng-href="#/candidato/{{prefeito.id}}">
-      <img ng-src="{{urlFoto}}{{prefeito.id}}" class="md-avatar" alt="prefeito.nomeUrna" />
-      <div class="md-list-item-text" layout="column">
-        <h3>{{ prefeito.nomeUrna }} - {{prefeito.numero}}</h3>
-        <h4>{{ prefeito.nomeColigacao }}</h4>
-        <p>{{ prefeito.partido.sigla }}</p>
-      </div>
-    </md-list-item>
-  </md-list>
-</md-content>
-</div>
+        <div class="col-sm-9 offset-sm-3 col-md-10 offset-md-2 main">
+            <h2>Prefeito</h2>
+
+            <div class="row placeholders" ng-if="carregando">
+                <div class="col-md-12">Carregando...</div>
+            </div>
+
+            <div class="row placeholders" ng-if="!carregando">
+                <div class="col-xs-4 col-sm-4 placeholder foto-candidato" ng-repeat="prefeito in prefeitos | filter:busca">
+                    <a href ng-href="#/candidato/{{::prefeito.id}}">
+                        <img ng-src="{{::urlFoto}}{{::prefeito.id}}" width="150" height="150" class="img-fluid" alt="{{::prefeito.nomeUrna}}">
+                        <h6>{{ ::prefeito.nomeUrna }}<br>{{::prefeito.numero}}</h6>
+                    <!-- <span class="text-muted">{{ prefeito.nomeColigacao }}<br>{{ prefeito.partido.sigla }}</span> -->
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

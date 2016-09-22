@@ -1,4 +1,4 @@
-
+<!-- 
 <div class="mdl-card">
   <div class="mdl-card__title">
      <h2 class="mdl-card__title-text">{{detalhe.nomeCompleto}}<br>{{detalhe.numero}}, {{detalhe.partido.sigla}}</h2>
@@ -44,4 +44,62 @@
 	</table>
 </div>
 
-<div>
+<div> -->
+
+<hr>
+<div class="container">
+	<div class="row">
+  		<div class="col-sm-10"><h1>{{detalhe.nomeCompleto}} - {{detalhe.numero}}</h1></div>
+    	<div class="col-sm-2"><a href="/users" class="pull-right"><img title="profile image" class="img-circle img-responsive" ng-src="{{detalhe.fotoUrl}}"></a></div>
+    </div>
+    <div class="row">
+  		<div class="col-sm-3"><!--left col-->
+              
+          <ul class="list-group" style=" font-size: 12px">
+            <li class="list-group-item text-muted">Dados</li>
+            <li class="list-group-item text-right">
+            	<span class="pull-left"><strong>Nascimento</strong></span> 
+            	{{detalhe.dataDeNascimento  | date:'dd/MM/yyyy'}}</li>
+            <li class="list-group-item text-right"><span class="pull-left"><strong>Estado Civil</strong></span> {{detalhe.descricaoEstadoCivil}}</li>
+            <li class="list-group-item text-right"><span class="pull-left"><strong>Grau de Instrução</strong></span> {{detalhe.grauInstrucao}}</li>
+            <li class="list-group-item text-right"><span class="pull-left"><strong>Ocupação:</strong></span> {{detalhe.ocupacao}}</li>
+           
+          
+        </div><!--/col-3-->
+    	<div class="col-sm-9">
+         <h5>Lista de Bens</h5>    
+          <div class="tab-content">
+            <div class="tab-pane active" id="home">
+              <div class="table-responsive">
+                <table class="table table-hover">
+                  <thead>
+                    <tr style=" font-size: 12px">
+				      <th>Descrição</th>
+				      <th>Tipo</th>
+				      <th>Valor</th>
+                    </tr>
+                  </thead>
+                  <tbody id="items">
+                    <tr ng-repeat="bem in detalhe.bens" style=" font-size: 12px">
+				      <td>{{bem.descricao}}</td>
+				      <td>{{bem.descricaoDeTipoDeBem}}</td>
+				      <td>{{bem.valor | currency:'R$ '}}</td>
+				    </tr>
+                    <tr style=" font-size: 12px; text-align: right;">
+                      <td colspan="3" class="pull-right">Total: {{ getTotalBens() | currency:'R$ '}}</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div><!--/table-resp-->
+              
+              <hr>
+           
+             </div><!--/tab-pane-->
+             
+            
+               
+              </div><!--/tab-pane-->
+          </div><!--/tab-content-->
+
+        </div><!--/col-9-->
+    </div><!--/row-->

@@ -1,32 +1,18 @@
-<!-- Always shows a header, even in smaller screens. -->
-<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-  <header class="mdl-layout__header">
-    <div class="mdl-layout__header-row">
-      <!-- Title -->
-      <span class="mdl-layout-title">Candidatos Catalão - Eleições 2016</span>
-      <!-- Add spacer, to align navigation to the right -->
-      <div class="mdl-layout-spacer"></div>
-      <!-- Navigation. We hide it in small screens. -->
-      <nav class="mdl-navigation mdl-layout--large-screen-only">
-        <a class="mdl-navigation__link" href="#/home">Início</a>
-        <a class="mdl-navigation__link" href="#/vereadores">Candidatos a Vereador</a>
-        <a class="mdl-navigation__link" href="#/prefeitos">Candidatos a Prefeito</a>
-        <a class="mdl-navigation__link" href="#/estatisticas">Estatísticas</a>
-        <a class="mdl-navigation__link" href="#/sobre">Sobre</a>
-      </nav>
-    </div>
-  </header>
-  <div class="mdl-layout__drawer">
-    <span class="mdl-layout-title">Candidatos Catalão - Eleições 2016</span>
-    <nav class="mdl-navigation">
-      <a class="mdl-navigation__link" href="#/home">Início</a>
-      <a class="mdl-navigation__link" href="#/vereadores">Candidatos a Vereador</a>
-      <a class="mdl-navigation__link" href="#/prefeitos">Candidatos a Prefeito</a>
-      <a class="mdl-navigation__link" href="#/estatisticas">Estatísticas</a>
-      <a class="mdl-navigation__link" href="#/sobre">Sobre</a>
+    <nav class="navbar navbar-dark navbar-fixed-top bg-inverse">
+      <button type="button" class="navbar-toggler hidden-sm-up" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Candidatos Catalão - Eleições 2016</a>
+      <div id="navbar">
+        <nav class="nav navbar-nav pull-xs-left">
+          <a class="nav-item nav-link" href="#/home">Início</a>
+          <a class="nav-item nav-link" href="#/vereadores">Candidatos a Vereador</a>
+          <a class="nav-item nav-link" href="#/prefeitos">Candidatos a Prefeito</a>
+          <a class="nav-item nav-link" href="#/estatisticas">Estatísticas</a>
+          <a class="nav-item nav-link" href="#/sobre">Sobre</a>
+        </nav>
+      </div>
     </nav>
-  </div>
-  <main class="mdl-layout__content">
-    <div class="page-content"><!-- Your content goes here --></div>
-  </main>
-</div>
