@@ -4,6 +4,8 @@ angular.module("eleicoesCatalao")
 	$scope.id = $routeParams.id;
 	$scope.numero = $routeParams.numero;
 
+	$scope.isVereador = false;
+
 	$scope.urlFoto = "http://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/foto/2/";
 
 	$scope.init = function () {
@@ -15,6 +17,9 @@ angular.module("eleicoesCatalao")
 
 		eleicoesAPI.getDetalhe(id).success(function (data) {
 			$scope.detalhe = data;
+			if($scope.detalhe.cargo.codigo == 11) {
+				$scope.isVereador = true;
+			}
 		});
 	};
 
