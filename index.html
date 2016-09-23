@@ -8,30 +8,24 @@
     <title>Eleições Catalão 2016</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="public/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="public/css/style.css">
+    <link rel="stylesheet" href="public/css/style.min.css">
 
 <!-- <script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script> -->
 
-    <script src="node_modules/angular/angular.js"></script> 
-    <script src="node_modules/angular-aria/angular-aria.js"></script> 
-    <script src="node_modules/angular-animate/angular-animate.js"></script> 
-    <script src="node_modules/angular-material/angular-material.js"></script> 
-    <script src="node_modules/angular-route/angular-route.js"></script> 
-    
-    <script src="app/app.js"></script> 
-    <script src="app/config/config.js"></script>
-    <script src="app/controllers/detalheCandidatoController.js"></script>
-    <script src="app/controllers/prefeitosController.js"></script>
-    <script src="app/controllers/vereadoresController.js"></script>
-    <script src="app/config/routeConfig.js"></script>
-    <script src="app/services/eleicoesAPIservice.js"></script>
+    <script src="public/min/angular.js"></script>
+    <script src="public/min/angular-aria.js"></script>
+    <script src="public/min/angular-animate.js"></script>
+    <script src="public/min/angular-material.js"></script>
+    <script src="public/min/angular-route.js"></script>
+
+    <script src="public/js/min/app.min.js"></script>
 
 </head>
     <body>
-    
+
     <div ng-include="'app/views/header.html'"></div>
     <div ng-view></div>
     <div ng-include="'app/views/footer.html'"></div>
- 
+
     </body>
 </html>
