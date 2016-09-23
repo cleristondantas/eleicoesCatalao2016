@@ -1,105 +1,157 @@
-<!-- 
-<div class="mdl-card">
-  <div class="mdl-card__title">
-     <h2 class="mdl-card__title-text">{{detalhe.nomeCompleto}}<br>{{detalhe.numero}}, {{detalhe.partido.sigla}}</h2>
-  </div>
-  <div class="mdl-card__media center">
-    <img ng-src="{{detalhe.fotoUrl}}" width="173" border="0" alt=""
-     style="padding:10px;">
-  </div>
-
-  <div class="mdl-card__supporting-text">
-  Nascimento: {{detalhe.dataDeNascimento  | date:'dd/MM/yyyy'}} <br>
-  Estado Civil: {{detalhe.descricaoEstadoCivil}} <br>
-  Grau de Instrução: {{detalhe.grauInstrucao}} <br>
-  Ocupação: {{detalhe.ocupacao}} <br>
-
-
-  </div>
-  
-</div>
-<div>
-
-<div class="table-responsive-vertical shadow-z-1">
-	<table class="table table-hover">
-	  <thead>
-	    <tr>
-	      <th class="mdl-data-table__cell--non-numeric">Descrição</th>
-	      <th class="mdl-data-table__cell--non-numeric">Tipo</th>
-	      <th>Valor</th>
-	    </tr>
-	  </thead>
-	  <tbody>
-	    <tr ng-repeat="bem in detalhe.bens">
-	      <td class="mdl-data-table__cell--non-numeric">{{bem.descricao}}</td>
-	      <td class="mdl-data-table__cell--non-numeric">{{bem.descricaoDeTipoDeBem}}</td>
-	      <td>{{bem.valor | currency:'R$ '}}</td>
-	    </tr>
-	    <tr>
-	    	<td>
-	    	Total: {{ getTotalBens() | currency:'R$ '}}
-	    	</td>
-	    </tr>
-	  </tbody>
-	</table>
-</div>
-
-<div> -->
-
 <hr>
 <div class="container">
-	<div class="row">
-  		<div class="col-sm-10"><h1>{{detalhe.nomeCompleto}} - {{detalhe.numero}}</h1></div>
-    	<div class="col-sm-2"><a href="/users" class="pull-right"><img title="profile image" class="img-circle img-responsive" ng-src="{{detalhe.fotoUrl}}"></a></div>
+    <div class="row">
+        <div class="col-sm-10"><h1>{{detalhe.nomeCompleto}} - {{detalhe.numero}}</h1></div>
+        <div class="col-sm-2"><a href="/users" class="pull-right"><img title="profile image" class="img-circle img-responsive" ng-src="{{detalhe.fotoUrl}}"></a></div>
     </div>
     <div class="row">
-  		<div class="col-sm-3"><!--left col-->
-              
-          <ul class="list-group" style=" font-size: 12px">
-            <li class="list-group-item text-muted">Dados</li>
-            <li class="list-group-item text-right">
-            	<span class="pull-left"><strong>Nascimento</strong></span> 
-            	{{detalhe.dataDeNascimento  | date:'dd/MM/yyyy'}}</li>
-            <li class="list-group-item text-right"><span class="pull-left"><strong>Estado Civil</strong></span> {{detalhe.descricaoEstadoCivil}}</li>
-            <li class="list-group-item text-right"><span class="pull-left"><strong>Grau de Instrução</strong></span> {{detalhe.grauInstrucao}}</li>
-            <li class="list-group-item text-right"><span class="pull-left"><strong>Ocupação:</strong></span> {{detalhe.ocupacao}}</li>
-           
-          
-        </div><!--/col-3-->
-    	<div class="col-sm-9">
-         <h5>Lista de Bens</h5>    
-          <div class="tab-content">
-            <div class="tab-pane active" id="home">
-              <div class="table-responsive">
-                <table class="table table-hover">
-                  <thead>
-                    <tr style=" font-size: 12px">
-				      <th>Descrição</th>
-				      <th>Tipo</th>
-				      <th>Valor</th>
-                    </tr>
-                  </thead>
-                  <tbody id="items">
-                    <tr ng-repeat="bem in detalhe.bens" style=" font-size: 12px">
-				      <td>{{bem.descricao}}</td>
-				      <td>{{bem.descricaoDeTipoDeBem}}</td>
-				      <td>{{bem.valor | currency:'R$ '}}</td>
-				    </tr>
-                    <tr style=" font-size: 12px; text-align: right;">
-                      <td colspan="3" class="pull-right">Total: {{ getTotalBens() | currency:'R$ '}}</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div><!--/table-resp-->
-              
-              <hr>
-           
-             </div><!--/tab-pane-->
-             
-            
-               
-              </div><!--/tab-pane-->
-          </div><!--/tab-content-->
+        <div class="col-sm-3">
+            <ul class="list-group" style=" font-size: 12px">
 
-        </div><!--/col-9-->
-    </div><!--/row-->
+                <li class="list-group-item text-muted">Dados</li>
+                <li class="list-group-item text-right">
+                    <span class="pull-left"><strong>Nascimento: &nbsp;</strong></span>
+                    {{detalhe.dataDeNascimento  | date:'dd/MM/yyyy'}}</li>
+                    <li class="list-group-item text-right"><span class="pull-left"><strong>Estado Civil: &nbsp;</strong></span> {{detalhe.descricaoEstadoCivil}}</li>
+                    <li class="list-group-item text-right"><span class="pull-left"><strong>Grau de Instrução: &nbsp;</strong></span> {{detalhe.grauInstrucao}}</li>
+                    <li class="list-group-item text-right"><span class="pull-left"><strong>Ocupação: &nbsp;</strong></span> {{detalhe.ocupacao}}</li>
+                    <li class="list-group-item text-right"></li>
+                    <li class="list-group-item text-muted">Despesas</li>
+                <li class="list-group-item text-right">
+                    <span class="pull-left"><strong>Limite de Gastos: &nbsp;</strong></span>{{gastos.despesas.limiteDeGasto1T  | currency:'R$ '}}</li>
+                    <li class="list-group-item text-right"><span class="pull-left"><strong>Despesas Contratadas: &nbsp;</strong></span> {{gastos.despesas.totalDespesasContratadas  | currency:'R$ '}}</li>
+                    <li class="list-group-item text-right"><span class="pull-left"><strong>Despesas Pagas: &nbsp;</strong></span> {{gastos.despesas.totalDespesasPagas  | currency:'R$ '}}</li>
+
+            </ul>
+        </div>
+                <div class="col-sm-9">
+                    <h5>Prestação de contas</h5>
+                    <hr>
+                    <h6>Principais despesas <span class="atualizacao">Atualizado em: {{gastos.dataUltimaAtualizacaoContas}}</span></h6>
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="home">
+                            <div class="table-responsive">
+                                <table class="table table-striped">
+                                    <thead>
+                                        <tr style=" font-size: 10px">
+                                            <th>Descrição</th>
+                                            <th>Quantidade</th>
+                                            <th width="100px">Valor</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="items">
+                                        <tr ng-repeat="gasto in gastos.concentracaoDespesas" style=" font-size: 10px">
+                                            <td>{{gasto.dsDRD}}</td>
+                                            <td>{{gasto.qtdeDespesas}}</td>
+                                            <td>{{gasto.valor | currency:'R$ '}}</td>
+                                        </tr>
+                                        <tr style=" font-size: 10px; text-align: right;" class="danger">
+                                            <td></td>
+                                            <td>Total:</td>
+                                            <td class="pull-right"> {{ getTotalGasto() | currency:'R$ '}}</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <hr>
+                        </div>
+                    </div>
+
+                    <h6>Doadores</h6>
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="home">
+                            <div class="table-responsive">
+                                <table class="table table-striped">
+                                    <thead>
+                                        <tr style=" font-size: 10px">
+                                            <th>CNPJ</th>
+                                            <th>Nome</th>
+                                            <th>Quantidade</th>
+                                            <th width="100px">Valor</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="items">
+                                        <tr ng-repeat="doacao in gastos.rankingDoadores" style=" font-size: 10px">
+                                            <td>{{doacao.cpfCnpj}}</td>
+                                            <td>{{doacao.nome}}</td>
+                                            <td>{{doacao.qntd}}</td>
+                                            <td>{{doacao.valor | currency:'R$ '}}</td>
+                                        </tr>
+                                        <tr style=" font-size: 10px; text-align: right;" class="danger">
+                                            <td></td>
+                                            <td></td>
+                                            <td>Total:</td>
+                                            <td class="pull-right"> {{ gastos.dadosConsolidados.totalRecebido | currency:'R$ '}}</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <hr>
+                        </div>
+                    </div>
+
+                    <h6>Fornecedores</h6>
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="home">
+                            <div class="table-responsive">
+                                <table class="table table-striped">
+                                    <thead>
+                                        <tr style=" font-size: 10px">
+                                            <th>CNPJ</th>
+                                            <th>Nome</th>
+                                            <th>Quantidade</th>
+                                            <th width="100px">Valor</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="items">
+                                        <tr ng-repeat="forn in gastos.rankingFornecedores" style=" font-size: 10px">
+                                            <td>{{forn.cpfCnpj}}</td>
+                                            <td>{{forn.nome}}</td>
+                                            <td>{{forn.qntd}}</td>
+                                            <td>{{forn.valor | currency:'R$ '}}</td>
+                                        </tr>
+                                        <tr style=" font-size: 10px; text-align: right;" class="danger">
+                                            <td></td>
+                                            <td></td>
+                                            <td>Total:</td>
+                                            <td class="pull-right"> {{ getTotalForn() | currency:'R$ '}}</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <hr>
+                        </div>
+                    </div>
+
+                    <h5>Lista de Bens</h5>
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="home">
+                            <div class="table-responsive">
+                                <table class="table table-striped">
+                                    <thead>
+                                        <tr style=" font-size: 10px">
+                                            <th>Descrição</th>
+                                            <th>Tipo</th>
+                                            <th width="100px">Valor</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="items">
+                                        <tr ng-repeat="bem in detalhe.bens" style=" font-size: 10px">
+                                            <td>{{bem.descricao}}</td>
+                                            <td>{{bem.descricaoDeTipoDeBem}}</td>
+                                            <td>{{bem.valor | currency:'R$ '}}</td>
+                                        </tr>
+                                        <tr style=" font-size: 10px; text-align: right;" class="danger">
+                                            <td></td>
+                                            <td>Total:</td>
+                                            <td class="pull-right"> {{ getTotalBens() | currency:'R$ '}}</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>

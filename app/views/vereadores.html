@@ -2,13 +2,20 @@
     <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
             Busca
-            <input ng-model="busca" class="form-control">
+            <input ng-model="busca" class="form-control" placeholder="Digite: nome, partido, numero...">
 
-            Partido
+<!--             Partido
+            <select class="form-control">
 
+            </select>
             Escolaridade
-
+            <select class="form-control">
+                <option value="Superior Completo">Superior Completo</option>
+            </select>
             Mandatos
+            <select class="form-control">
+
+            </select> -->
         </div>
         <div class="col-sm-9 offset-sm-3 col-md-10 offset-md-2 main">
             <h2>Vereadores</h2>
@@ -18,14 +25,20 @@
             </div>
 
             <div class="row placeholders" ng-if="!carregando">
-                <div class="col-xs-4 col-sm-2 placeholder foto-candidato" ng-repeat="vereador in vereadores | filter:busca">
-                    <a href ng-href="#/candidato/{{::vereador.id}}">
+                <div class="col-xs-4 col-sm-2 foto-candidato" ng-repeat="vereador in vereadores | filter:busca">
+                    <a href ng-href="#/candidato/{{::vereador.id}}/{{::vereador.numero}}">
+                        <i class="cargo" ng-if="vereador.st_REELEICAO">Busca Reeleição</i>
                         <img ng-src="{{::urlFoto}}{{::vereador.id}}" width="100" height="100" class="img-fluid" alt="{{::vereador.nomeUrna}}">
-                        <h6>{{ ::vereador.nomeUrna }}<br>{{::vereador.numero}}</h6>
+                        <span class="situacao">{{::vereador.descricaoSituacao}}</span>
+                        <h6>{{ ::vereador.nomeUrna }}<br><span>{{::vereador.numero}}</span></h6>
                     <!-- <span class="text-muted">{{ vereador.nomeColigacao }}<br>{{ vereador.partido.sigla }}</span> -->
                     </a>
                 </div>
             </div>
         </div>
+
+<!--         <div class="col-xs-4 col-sm-2 foto-candidato" ng-repeat="vereador in vereadores">
+
+        </div> -->
     </div>
 </div>

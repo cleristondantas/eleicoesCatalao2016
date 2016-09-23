@@ -20,7 +20,7 @@ angular.module("eleicoesCatalao").config(function ($routeProvider) {
 		// 	}
 		// }
 	});
-	$routeProvider.when("/candidato/:id", {
+	$routeProvider.when("/candidato/:id/:numero", {
 		templateUrl: "app/views/detalheCandidato.html",
 		controller: "detalheCandidatoCtrl",
 		// resolve: {

@@ -14,8 +14,8 @@
             </div>
 
             <div class="row placeholders" ng-if="!carregando">
-                <div class="col-xs-4 col-sm-4 placeholder foto-candidato" ng-repeat="prefeito in prefeitos | filter:busca">
-                    <a href ng-href="#/candidato/{{::prefeito.id}}">
+                <div class="col-xs-4 col-sm-4 foto-candidato" ng-repeat="prefeito in prefeitos | filter:busca">
+                    <a href ng-href="#/candidato/{{::prefeito.id}}/{{::prefeito.numero}}">
                         <img ng-src="{{::urlFoto}}{{::prefeito.id}}" width="150" height="150" class="img-fluid" alt="{{::prefeito.nomeUrna}}">
                         <h6>{{ ::prefeito.nomeUrna }}<br>{{::prefeito.numero}}</h6>
                     <!-- <span class="text-muted">{{ prefeito.nomeColigacao }}<br>{{ prefeito.partido.sigla }}</span> -->
