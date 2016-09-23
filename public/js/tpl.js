@@ -7,7 +7,7 @@ angular.module('app').run(['$templateCache', function($templateCache) {
 
 
   $templateCache.put('app/views/footer.html',
-    "<footer class=footer><div class=container><p class=text-muted-footer>Todas as informações são fornecidas pelo TSE, protótipo desenvolvido por: <a href=https://www.facebook.com/dantascleriston>Cleriston Dantas</a>.</p></div></footer>"
+    "<footer class=footer><div class=container><p class=text-muted-footer>Todas as informações são fornecidas pelo TSE, protótipo desenvolvido por: <a href=https://www.facebook.com/dantascleriston>Cleriston Dantas</a>. Projeto no <a href=https://github.com/cleristondantas/eleicoesCatalao2016 href=_blank>GitHub</a></p></div></footer>"
   );
 
 
