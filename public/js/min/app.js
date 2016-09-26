@@ -10,6 +10,14 @@ angular.module("eleicoesCatalao", ["ngMaterial", "ngRoute"])
       removeFunction(); // COMPLETELY removes the browser color
     })
   }])
+
+angular.module("eleicoesCatalao").run(['$rootScope', '$location', function($rootScope, $location) {
+    $rootScope.$on('$routeChangeSuccess', function() {
+        // $templateCache.removeAll();
+        $window.ga('send', 'pageview', { page: $location.url() });
+    });
+}]);
+
 angular.module("eleicoesCatalao").value("config", {
 	baseUrl: "http://divulgacandcontas.tse.jus.br/divulga/rest/v1/",
 	cidade: "93017",

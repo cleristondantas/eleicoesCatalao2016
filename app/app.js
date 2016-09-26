@@ -10,3 +10,10 @@ angular.module("eleicoesCatalao", ["ngMaterial", "ngRoute"])
       removeFunction(); // COMPLETELY removes the browser color
     })
   })
+
+angular.module("eleicoesCatalao").run(function($rootScope, $location) {
+    $rootScope.$on('$routeChangeSuccess', function() {
+        // $templateCache.removeAll();
+        $window.ga('send', 'pageview', { page: $location.url() });
+    });
+});
