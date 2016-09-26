@@ -11,7 +11,7 @@ angular.module("eleicoesCatalao", ["ngMaterial", "ngRoute"])
     })
   })
 
-angular.module("eleicoesCatalao").run(function($rootScope, $location) {
+angular.module("eleicoesCatalao").run(function($rootScope, $location, $window) {
     $rootScope.$on('$routeChangeSuccess', function() {
         // $templateCache.removeAll();
         $window.ga('send', 'pageview', { page: $location.url() });

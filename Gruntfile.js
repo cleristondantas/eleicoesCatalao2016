@@ -74,7 +74,8 @@ concat: {
     cssmin: {
       combine: {
         files: {
-          'public/css/style.min.css': ['public/css/style.css']
+          'public/css/style.min.css': ['public/css/style.css'],
+          'public/css/bootstrap.min.css': ['public/css/bootstrap.css']
         }
       }
     },

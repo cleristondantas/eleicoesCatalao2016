@@ -11,7 +11,7 @@ angular.module("eleicoesCatalao", ["ngMaterial", "ngRoute"])
     })
   }])
 
-angular.module("eleicoesCatalao").run(['$rootScope', '$location', function($rootScope, $location) {
+angular.module("eleicoesCatalao").run(['$rootScope', '$location', '$window', function($rootScope, $location, $window) {
     $rootScope.$on('$routeChangeSuccess', function() {
         // $templateCache.removeAll();
         $window.ga('send', 'pageview', { page: $location.url() });
@@ -99,6 +99,12 @@ angular.module("eleicoesCatalao").factory("eleicoesAPI", ['$http', 'config', fun
 		return $http.get(config.baseUrl + "candidatura/listar/" + config.ano + "/" + config.cidade + "/2/11/candidatos");
 	};
 
+	// ttp://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2016/93017/2/12/candidatos
+
+	var _getVicePrefeitos = function () {
+		return $http.get(config.baseUrl + "candidatura/listar/" + config.ano + "/" + config.cidade + "/2/12/candidatos");
+	};
+
 	var _getDetalhe = function (id) {
 		// http://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2016/93017/2/candidato/90000008472
 		// return config.baseUrl + "candidatura/buscar/" + config.ano + "/" + config.cidade + "/2/candidato/" + id;
@@ -118,6 +124,7 @@ angular.module("eleicoesCatalao").factory("eleicoesAPI", ['$http', 'config', fun
 	return {
 		getVereadores: _getVereadores,
 		getPrefeitos: _getPrefeitos,
+		getVicePrefeitos: _getVicePrefeitos,
 		getDetalhe: _getDetalhe,
 		getFoto: _getFoto,
 		getGastos: _getGastos
@@ -128,17 +135,27 @@ angular.module("eleicoesCatalao")
 .controller("prefeitosCtrl", ['$scope', 'eleicoesAPI', function ($scope, eleicoesAPI) {
 
 	$scope.urlFoto = "http://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/foto/2/";
-	$scope.carregando = true;
+	$scope.carregandoP = true;
+	$scope.carregandoV = true;
 
-	$scope.loadPrefeitos = function (contato) {
+	$scope.loadPrefeitos = function () {
 
 		eleicoesAPI.getPrefeitos().success(function (data) {
 			$scope.prefeitos = data.candidatos;
-			$scope.carregando = false;
+			$scope.carregandoP = false;
+		});
+	};
+
+	$scope.loadVicePrefeitos = function () {
+
+		eleicoesAPI.getVicePrefeitos().success(function (data) {
+			$scope.vicePrefeitos = data.candidatos;
+			$scope.carregandoV = false;
 		});
 	};
 
 	$scope.loadPrefeitos();
+	$scope.loadVicePrefeitos();
 
 }]);
 angular.module("eleicoesCatalao").config(['$routeProvider', function ($routeProvider) {

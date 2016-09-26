@@ -1,6 +1,6 @@
 
 
-<div class="container-fluid">
+<div class="container">
     <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
             Busca
@@ -10,11 +10,12 @@
             <div class="row placeholders">
                 <div class="col-md-12">
                     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                    <!-- listagem de vereadores -->
+                    <!-- lateral-detalhes -->
                     <ins class="adsbygoogle"
-                         style="display:inline-block;width:728px;height:90px"
+                         style="display:block"
                          data-ad-client="ca-pub-4315398813095306"
-                         data-ad-slot="5693058477"></ins>
+                         data-ad-slot="1123258073"
+                         data-ad-format="auto"></ins>
                     <script>
                     (adsbygoogle = window.adsbygoogle || []).push({});
                     </script>
@@ -22,11 +23,9 @@
             </div>
             <h2>Prefeito</h2>
 
-            <div class="row placeholders" ng-if="carregando">
-                <div class="col-md-12">Carregando...</div>
-            </div>
+            
 
-            <div class="row placeholders" ng-if="!carregando">
+            <div class="row placeholders" ng-if="!(carregandoP && !carregandoV)">
                 <div class="col-xs-4 col-sm-4 foto-candidato" ng-repeat="prefeito in prefeitos | filter:busca">
                     <a href ng-href="#/candidato/{{::prefeito.id}}/{{::prefeito.numero}}">
                         <img ng-src="{{::urlFoto}}{{::prefeito.id}}" width="150" height="150" class="img-fluid" alt="{{::prefeito.nomeUrna}}">
@@ -34,6 +33,21 @@
                     <!-- <span class="text-muted">{{ prefeito.nomeColigacao }}<br>{{ prefeito.partido.sigla }}</span> -->
                     </a>
                 </div>
+            </div>
+            <br>
+            <h2>Vice Prefeito</h2>
+            <div class="row placeholders" ng-if="!(carregandoP && carregandoV)">
+                <div class="col-xs-4 col-sm-4 foto-candidato" ng-repeat="prefeito in vicePrefeitos | filter:busca">
+                    <a href ng-href="#/candidato/{{::prefeito.id}}/{{::prefeito.numero}}">
+                        <img ng-src="{{::urlFoto}}{{::prefeito.id}}" width="150" height="150" class="img-fluid" alt="{{::prefeito.nomeUrna}}">
+                        <h6>{{ ::prefeito.nomeUrna }}<br>{{::prefeito.numero}}</h6>
+                    <!-- <span class="text-muted">{{ prefeito.nomeColigacao }}<br>{{ prefeito.partido.sigla }}</span> -->
+                    </a>
+                </div>
+            </div>
+
+            <div class="row placeholders" ng-if="carregandoP && carregandoV">
+                <div class="col-md-12">Carregando...</div>
             </div>
         </div>
     </div>
