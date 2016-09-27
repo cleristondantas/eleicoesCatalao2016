@@ -1,0 +1,5383 @@
+{
+    unidadeEleitoral: {
+        id: null,
+        sigla: "GO",
+        nome: "CATALÃƒO",
+        regiao: null,
+        cargos: null,
+        diretorios: null,
+        codigo: "93017",
+        capital: false,
+        estado: "GOIÃS"
+    },
+    cargo: {
+        codigo: 13,
+        sigla: null,
+        nome: "Vereador",
+        contagem: 0
+    },
+    candidatos: [
+        {
+            id: 90000017800,
+            nomeUrna: "40678",
+            numero: 40678,
+            nomeCompleto: "RITA DE CÃSSIA RODOVALHO",
+            descricaoSituacao: "RenÃºncia",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO NÃƒO PODE PARAR",,            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PSB",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000022166,
+            nomeUrna: "ADALCINO MARTINS",
+            numero: 43456,
+                Completo: "ADALCINO MARTINS ALVES",
+            descricaoSituacao: "Indeferido",
+          descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "POR AMOR A CATALÃƒO",
+    ,       cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PV",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000022081,
+            nomeUrna: "ADEMIR TENENTE",
+            numero: 44777,
+            nomeCompleto: "ADEMIR MIGUEL EVANGELISTA",
+            descricaoSituacao: "RenÃºncia",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "Coragem Para Reconstruir I,",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PRP",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000021986,
+            nomeUrna: "ADRIANA DIARISTA",
+            numero: 27153,
+            nomeCompleto: "ADRIANA FLORENTINO DA SILVA",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CORAGEM PARA RECONSTRUIR I,I",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PSDC",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000022149,
+            nomeUrna: "ADSON DIAS",
+            numero: 90015,
+                Completo: "VALDIVINO DIAS NETO",
+            descricaoSituacao: "Deferido",
+          descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "POR AMOR A CATALÃƒO",
+    ,       cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PROS",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000017793,
+            nomeUrna: "ALEX RENATO",
+            numero: 19257,
+            nomeCompleto: "ALEX RENATO NERIS BORGES",
+            descricaoSituacao: "RenÃºncia",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO NÃƒO PODE PARAR",,            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PTN",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000008449,
+            nomeUrna: "ALINE",
+            numero: 15500,
+            nomeCompleto: "ALINE LOPES RIBEIRO",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CORAGEM PARA RECONSTRUIR I,,
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PMDB",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000022161,
+            nomeUrna: "AMARILDO",
+            numero: 65123,
+                Completo: "AMARILDO CAMBRAIA JUNIOR",
+            descricaoSituacao: "Deferido",
+          descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "POR AMOR A CATALÃƒO",
+    ,       cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PC do B",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000025047,
+            nomeUrna: "ANA PAULA",
+            numero: 22000,
+            nomeCompleto: "ANA PAULA MACHADO RODRIGUES",
+            descricaoSituacao: "Indeferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO NO CAMINHO CERTO",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PR",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000022091,
+            nomeUrna: "ANESIO CAMARGO",
+            numero: 44121,
+            nomeCompleto: "ANESIO DE NOVAIS CAMARGO",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "Coragem Para Reconstruir I,",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PRP",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000014866,
+            nomeUrna: "ANINHA",
+            numero: 31222,
+            nomeCompleto: "ANA MARIA DO NASCIMENTO",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO, TRABALHO E JUVEN,UDE",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PHS",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000014838,
+            nomeUrna: "ARYADNA CLASSIFICADOS VIP",
+            numero: 22456,
+            nomeCompleto: "ARYADNA GUIMARÃƒES SAMPAIO",
+            descricaoSituacao: "RenÃºncia",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO NO CAMINHO CERTO",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PR",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000014834,
+            nomeUrna: "AURÃ‰LIO",
+            numero: 11111,
+            nomeCompleto: "AURÃ‰LIO CAMPOS DE MACEDO",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO NO CAMINHO CERTO",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PP",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: true
+        },
+        {
+            id: 90000022135,
+            nomeUrna: "BADIINHO DO BLOG",
+            numero: 90193,
+                Completo: "ABADIO MOISES FILHO",
+            descricaoSituacao: "Deferido",
+          descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "POR AMOR A CATALÃƒO",
+    ,       cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PROS",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000022157,
+            nomeUrna: "BALOIA",
+            numero: 65100,
+                Completo: "ANTERO HORACIO DOS SANTOS",
+            descricaoSituacao: "Deferido",
+          descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "POR AMOR A CATALÃƒO",
+    ,       cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PC do B",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000022099,
+            nomeUrna: "BRASIL CAVALCANTE",
+            numero: 25910,
+            nomeCompleto: "BRASIL ROSA CAVALCANTE",
+            descricaoSituacao: "RenÃºncia",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "Coragem Para Reconstruir I,",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "DEM",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000008452,
+            nomeUrna: "CABRAL",
+            numero: 14221,
+            nomeCompleto: "AFRICO CABRAL",
+            descricaoSituacao: "RenÃºncia",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CORAGEM PARA RECONSTRUIR I,,
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PTB",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000014877,
+            nomeUrna: "CACÃ LÃšCIO",
+            numero: 10124,
+            nomeCompleto: "CLÃUDIO LÃšCIO RODRIGUES",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO, TRABALHO E JUVEN,UDE",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PRB",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000008432,
+            nomeUrna: "CAÃ‡ULA",
+            numero: 15151,
+            nomeCompleto: "HELSON BARBOSA DE SOUZA",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CORAGEM PARA RECONSTRUIR I,,
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PMDB",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000022006,
+            nomeUrna: "CANDINHO LEÃƒO",
+            numero: 27222,
+            nomeCompleto: "SEBASTIÃƒO CANDIDO LEÃƒO",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CORAGEM PARA RECONSTRUIR I,I",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PSDC",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000021987,
+            nomeUrna: "CARLIM DO CONGO",
+            numero: 36333,
+            nomeCompleto: "CARLOS FRANCISCO ROSA DA SILVA",
+            descricaoSituacao: "RenÃºncia",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CORAGEM PARA RECONSTRUIR I,I",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PTC",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000014831,
+            nomeUrna: "CÃTIA DO FORRO",
+            numero: 55789,
+            nomeCompleto: "CÃTIA DO SOCORRO DE DEUS FERNANDES",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO NO CAMINHO CERTO",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PSD",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000017782,
+            nomeUrna: "CÃ‰LIO ALMEIDA",
+            numero: 19678,
+            nomeCompleto: "CÃ‰LIO ALMEIDA DA SILVA",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO NÃƒO PODE PARAR",,            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PTN",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000022164,
+            nomeUrna: "CESAR CLAUDINO",
+            numero: 43115,
+                Completo: "CESAR CLAUDINO DA SILVA",
+            descricaoSituacao: "Deferido",
+          descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "POR AMOR A CATALÃƒO",
+    ,       cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PV",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000014867,
+            nomeUrna: "CIDA",
+            numero: 31000,
+            nomeCompleto: "MARIA APARECIDA MAGALHÃƒES DOS SANTOS",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO, TRABALHO E JUVEN,UDE",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PHS",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000014869,
+            nomeUrna: "CLÃUDIO CASTILHO",
+            numero: 10010,
+            nomeCompleto: "CLÃUDIO CASTILHO NUNES DA SILVA",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO, TRABALHO E JUVEN,UDE",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PRB",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000008440,
+            nomeUrna: "CLAUDIO LIMA",
+            numero: 15100,
+            nomeCompleto: "CLAUDIO SILVA LIMA",
+            descricaoSituacao: "Indeferido com recurso",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CORAGEM PARA RECONSTRUIR I,,
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PMDB",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000008458,
+            nomeUrna: "CLEIBER",
+            numero: 14777,
+            nomeCompleto: "CLEIBER HILARIO DUARTE",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CORAGEM PARA RECONSTRUIR I,,
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PTB",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000021988,
+            nomeUrna: "CLEIDE DUTRA",
+            numero: 36141,
+            nomeCompleto: "CLEIDE MARIA DAVID DUTRA",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CORAGEM PARA RECONSTRUIR I,I",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PTC",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000014837,
+            nomeUrna: "CLÃ‰O DA RODONAVES",
+            numero: 55444,
+            nomeCompleto: "CLEONI APARECIDA CORREA",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO NO CAMINHO CERTO",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PSD",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000021989,
+            nomeUrna: "CLEUBER VAZ",
+            numero: 36123,
+            nomeCompleto: "CLEUBER JOSÃ‰ VAZ",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CORAGEM PARA RECONSTRUIR I,I",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PTC",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000022155,
+            nomeUrna: "CLEUDIMAR",
+            numero: 13131,
+                Completo: "CLEUDIMAR ROSA ALVES",
+            descricaoSituacao: "Deferido",
+          descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "POR AMOR A CATALÃƒO",
+    ,       cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PT",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000014827,
+            nomeUrna: "CORINA",
+            numero: 55345,
+            nomeCompleto: "CORINA DE CARVALHO ARAÃšJO CANDIDO RIBEIRO",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO NO CAMINHO CERTO",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PSD",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000022098,
+            nomeUrna: "CRIS HOT HOT",
+            numero: 25555,
+            nomeCompleto: "LEILA CRISTINA GONÃ‡ALVES DA SILVA",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "Coragem Para Reconstruir I,",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "DEM",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000025046,
+            nomeUrna: "DAGMA SILVA",
+            numero: 22045,
+            nomeCompleto: "DAGMA NETO DA SILVA",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO NO CAMINHO CERTO",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PR",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000008437,
+            nomeUrna: "DANIEL DO FLORESTA",
+            numero: 15012,
+            nomeCompleto: "DANIEL CARVALHO DOS REIS",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CORAGEM PARA RECONSTRUIR I,,
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PMDB",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: true
+        },
+        {
+            id: 90000017786,
+            nomeUrna: "DANILIN",
+            numero: 45678,
+            nomeCompleto: "DANILO DA SILVA NUNES",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO NÃƒO PODE PARAR",,            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PSDB",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000022154,
+            nomeUrna: "DENIZE SANTOS",
+            numero: 13113,
+                Completo: "DENIZE PEREIRA DOS SANTOS",
+            descricaoSituacao: "Deferido",
+          descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "POR AMOR A CATALÃƒO",
+    ,       cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PT",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000008428,
+            nomeUrna: "DEUSMAR BARBOSA",
+            numero: 15125,
+            nomeCompleto: "DEUSMAR BARBOSA DA ROCHA",
+            descricaoSituacao: "Deferido com recurso",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CORAGEM PARA RECONSTRUIR I,,
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PMDB",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: true
+        },
+        {
+            id: 90000014868,
+            nomeUrna: "DEVAN",
+            numero: 10000,
+            nomeCompleto: "VALDIVINO FERREIRA NUNES",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO, TRABALHO E JUVEN,UDE",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PRB",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000022138,
+            nomeUrna: "DEVANI SILVA",
+            numero: 90190,
+                Completo: "DEVANI PIRES DA SILVA",
+            descricaoSituacao: "Deferido",
+          descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "POR AMOR A CATALÃƒO",
+    ,       cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PROS",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: true
+        },
+        {
+            id: 90000022093,
+            nomeUrna: "DIEGO",
+            numero: 25007,
+            nomeCompleto: "DIEGO PINTO DA FONSECA",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "Coragem Para Reconstruir I,",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "DEM",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000014864,
+            nomeUrna: "DIRCE",
+            numero: 10277,
+            nomeCompleto: "DIRCE VIANA",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO, TRABALHO E JUVEN,UDE",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PRB",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000017798,
+            nomeUrna: "DONIZETE NEGÃƒO",
+            numero: 40800,
+            nomeCompleto: "DONIZETE JOSÃ‰ DOMINGOS",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO NÃƒO PODE PARAR",,            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PSB",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: true
+        },
+        {
+            id: 90000022103,
+            nomeUrna: "DOUTOR LUCIANO",
+            numero: 25000,
+            nomeCompleto: "LUCIANO CUNHA CARNEIRO",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "Coragem Para Reconstruir I,",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "DEM",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000014861,
+            nomeUrna: "DRA. AREMITA",
+            numero: 10345,
+            nomeCompleto: "AREMITA APARECIDA DA COSTA MARTINS",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO, TRABALHO E JUVEN,UDE",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PRB",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000014876,
+            nomeUrna: "DR. FABIANO",
+            numero: 10123,
+            nomeCompleto: "FABIANO PINTO RIBEIRO",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO, TRABALHO E JUVEN,UDE",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PRB",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000008455,
+            nomeUrna: "DR. JOÃƒO QUESSLEN",
+            numero: 14014,
+            nomeCompleto: "JOAO QUESSLEN DA SILVA",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CORAGEM PARA RECONSTRUIR I,,
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PTB",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000008430,
+            nomeUrna: "DR.LUIZ DAHAS",
+            numero: 15152,
+            nomeCompleto: "LUIZ CARLOS JORGE DAHAS",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CORAGEM PARA RECONSTRUIR I,,
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PMDB",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000014858,
+            nomeUrna: "Ã‰DER CÃSSIO",
+            numero: 10111,
+            nomeCompleto: "Ã‰DER CÃSSIO PAULINO",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO, TRABALHO E JUVEN,UDE",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PRB",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000022090,
+            nomeUrna: "EDIANE CABELEREIRO",
+            numero: 44444,
+            nomeCompleto: "GEAN ROSA ALVES",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "Coragem Para Reconstruir I,",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PRP",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000022110,
+            nomeUrna: "ELAINE DA SILVA",
+            numero: 44888,
+            nomeCompleto: "ELAINE FABRICIO DA SILVA",
+            descricaoSituacao: "RenÃºncia",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "Coragem Para Reconstruir I,",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PRP",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000008457,
+            nomeUrna: "ESLY",
+            numero: 15321,
+            nomeCompleto: "ESLY DE FATIMA SILVA",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CORAGEM PARA RECONSTRUIR I,,
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PMDB",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000008444,
+            nomeUrna: "EULIANA",
+            numero: 15015,
+            nomeCompleto: "EULIANA PINTO DE OLIVEIRA",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CORAGEM PARA RECONSTRUIR I,,
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PMDB",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000021990,
+            nomeUrna: "EURIPEDES CHANO",
+            numero: 36100,
+            nomeCompleto: "EURIPEDES ALMEIDA DE SOUZA",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CORAGEM PARA RECONSTRUIR I,I",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PTC",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000021978,
+            nomeUrna: "FERNANDINHA",
+            numero: 54272,
+            nomeCompleto: "MASDA FERNANDA RIBEIRO",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CORAGEM PARA RECONSTRUIR I,I",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PPL",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000022092,
+            nomeUrna: "FRANÃ‡A",
+            numero: 25110,
+            nomeCompleto: "FRANCISCO CAMARGO",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "Coragem Para Reconstruir I,",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "DEM",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000021979,
+            nomeUrna: "FRANCISCO CEARA",
+            numero: 54112,
+            nomeCompleto: "FRANCISCO NILSON DA SILVA",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CORAGEM PARA RECONSTRUIR I,I",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PPL",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000014879,
+            nomeUrna: "FRANCISCO NETO",
+            numero: 17123,
+            nomeCompleto: "FRANCISCO LOPES DA SILVA NETO",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO, TRABALHO E JUVEN,UDE",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PSL",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000022140,
+            nomeUrna: "FUMAÃ‡A",
+            numero: 90222,
+                Completo: "LUIS CARLOS ALVES SILVA",
+            descricaoSituacao: "Deferido",
+          descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "POR AMOR A CATALÃƒO",
+    ,       cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PROS",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000008436,
+            nomeUrna: "GERALDO GÃS",
+            numero: 15113,
+            nomeCompleto: "GERALDO ANTONIO DA SILVA",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CORAGEM PARA RECONSTRUIR I,,
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PMDB",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000008443,
+            nomeUrna: "GILMAR",
+            numero: 15112,
+            nomeCompleto: "GILMAR ANTONIO NETO",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CORAGEM PARA RECONSTRUIR I,,
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PMDB",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: true
+        },
+        {
+            id: 90000014872,
+            nomeUrna: "GILMAR CAREQUINHA",
+            numero: 31190,
+            nomeCompleto: "GILMAR CHAVES DOS SANTOS",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO, TRABALHO E JUVEN,UDE",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PHS",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000022087,
+            nomeUrna: "GILTON GEOLAN",
+            numero: 44456,
+            nomeCompleto: "GILTON GEOLAN CRAVO",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "Coragem Para Reconstruir I,",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PRP",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000021991,
+            nomeUrna: "GILVAN DOURADO",
+            numero: 27777,
+            nomeCompleto: "GILVAN DOURADO MARIANO LOPES",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CORAGEM PARA RECONSTRUIR I,I",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PSDC",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000008456,
+            nomeUrna: "GIZ",
+            numero: 14123,
+            nomeCompleto: "GISMARINO VAZ DA SILVA",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CORAGEM PARA RECONSTRUIR I,,
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PTB",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000008438,
+            nomeUrna: "GODO",
+            numero: 15222,
+            nomeCompleto: "JOÃƒO BATISTA RODRIGUES",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CORAGEM PARA RECONSTRUIR I,,
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PMDB",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000021992,
+            nomeUrna: "GUSTAVO ELISEU",
+            numero: 36150,
+            nomeCompleto: "GUSTAVO ELISEU SANTOS",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CORAGEM PARA RECONSTRUIR I,I",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PTC",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000008445,
+            nomeUrna: "HAMILTON COSTA",
+            numero: 15007,
+            nomeCompleto: "HAMILTON FERNANDES COSTA",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CORAGEM PARA RECONSTRUIR I,,
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PMDB",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000022079,
+            nomeUrna: "HELBER DO RESTAURANTE",
+            numero: 44015,
+            nomeCompleto: "HELBER RIBEIRO MIRANDA",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "Coragem Para Reconstruir I,",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PRP",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000014878,
+            nomeUrna: "HELLEMN-HURR",
+            numero: 17007,
+            nomeCompleto: "HELLEMN HURR COSTA SILVERIO",
+            descricaoSituacao: "Indeferido com recurso",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO, TRABALHO E JUVEN,UDE",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PSL",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000022142,
+            nomeUrna: "HELOISA AGUIAR",
+            numero: 90125,
+                Completo: "HELOISA APARECIDA DE AGUIAR CASTRO",
+            descricaoSituacao: "Deferido",
+          descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "POR AMOR A CATALÃƒO",
+    ,       cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PROS",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000022101,
+            nomeUrna: "HIGOR BUENO",
+            numero: 25016,
+            nomeCompleto: "HIGOR GOMES PIRES BUENO",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "Coragem Para Reconstruir I,",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "DEM",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000008460,
+            nomeUrna: "IBONY",
+            numero: 15156,
+            nomeCompleto: "IBONY JOSE RIBEIRO",
+            descricaoSituacao: "Indeferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CORAGEM PARA RECONSTRUIR I,,
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PMDB",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000017792,
+            nomeUrna: "IRIS",
+            numero: 19123,
+            nomeCompleto: "IRIS LÃšCIA MAIA",
+            descricaoSituacao: "Indeferido com recurso",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO NÃƒO PODE PARAR",,            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PTN",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000022137,
+            nomeUrna: "IRMÃƒO BATERIA",
+            numero: 90200,
+                Completo: "ADILSON FERREIRA DA SILVA",
+            descricaoSituacao: "Deferido",
+          descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "POR AMOR A CATALÃƒO",
+    ,       cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PROS",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000017796,
+            nomeUrna: "IVAN CORRÃŠA",
+            numero: 40123,
+            nomeCompleto: "IVAN LUÃS CORRÃŠA DA SILVA",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO NÃƒO PODE PARAR",,            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PSB",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000022144,
+            nomeUrna: "JAIR HUMBERTO",
+            numero: 90789,
+                Completo: "JAIR HUMBERTO DA SILVA",
+            descricaoSituacao: "Deferido",
+          descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "POR AMOR A CATALÃƒO",
+    ,       cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PROS",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000021993,
+            nomeUrna: "JANAINA",
+            numero: 36222,
+            nomeCompleto: "JANAINA FERREIRA DA FONSECA",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CORAGEM PARA RECONSTRUIR I,I",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PTC",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000017797,
+            nomeUrna: "JAQUELINE SÃTTIVA",
+            numero: 40999,
+            nomeCompleto: "JAQUELINE SÃTTIVA DA COSTA",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO NÃƒO PODE PARAR",,            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PSB",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000014826,
+            nomeUrna: "JASON",
+            numero: 55555,
+            nomeCompleto: "JASON ROSA DE MESQUITA NETO",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO NO CAMINHO CERTO",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PSD",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000017779,
+            nomeUrna: "JOÃƒO ANTÃ”NIO",
+            numero: 45222,
+            nomeCompleto: "JOÃƒO ANTÃ”NIO PINHEIRO CAMARGO",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO NÃƒO PODE PARAR",,            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PSDB",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: true
+        },
+        {
+            id: 90000021980,
+            nomeUrna: "JOÃƒO BATISTA",
+            numero: 54123,
+            nomeCompleto: "JOÃƒO BATISTA RIBEIRO",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CORAGEM PARA RECONSTRUIR I,I",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PPL",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000014875,
+            nomeUrna: "JOÃƒO GRANDÃƒO",
+            numero: 10113,
+            nomeCompleto: "JOÃƒO BATISTA DA SILVA",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO, TRABALHO E JUVEN,UDE",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PRB",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000021982,
+            nomeUrna: "JOAO NINGUEM",
+            numero: 54000,
+            nomeCompleto: "JOAO BELCHIOR DA SILVA",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CORAGEM PARA RECONSTRUIR I,I",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PPL",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000003172,
+            nomeUrna: "JOAQUIM AMARAL",
+            numero: 50123,
+                        nomeCompleto: "JOAQUIM LUIS ALVES DO AMARAL",
+ escricaoSexo: null,
+ ferido",
+            nacionalioTotalizacao: "Concorrendo",
+            nomeColigacao: "PSOL",
+            cargo: ,
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PSOL",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000017785,
+            nomeUrna: "JOEL FERNANDES",
+            numero: 45145,
+            nomeCompleto: "JOEL ANTÃ”NIO FERNANDES",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO NÃƒO PODE PARAR",,            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PSDB",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000022167,
+            nomeUrna: "JOSE CARLOS DO PIO GOMES",
+            numero: 43111,
+                Completo: "JOSE CARLOS DO NASCIMENTO",
+            descricaoSituacao: "Deferido",
+          descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "POR AMOR A CATALÃƒO",
+    ,       cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PV",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000022089,
+            nomeUrna: "JOSE MARIA",
+            numero: 44321,
+            nomeCompleto: "JOSE MARIA DOS REIS",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "Coragem Para Reconstruir I,",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PRP",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000017780,
+            nomeUrna: "JOSÃ‰ RIBEIRO BARULHADA",
+            numero: 45111,
+            nomeCompleto: "JOSÃ‰ RIBEIRO DA SILVA",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO NÃƒO PODE PARAR",,            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PSDB",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000014835,
+            nomeUrna: "JUAREZ RODOVALHO",
+            numero: 11123,
+            nomeCompleto: "JUAREZ CAMILO RODOVALHO",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO NO CAMINHO CERTO",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PP",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: true
+        },
+        {
+            id: 90000022146,
+            nomeUrna: "JUNIOR NEGAO",
+            numero: 90010,
+                Completo: "SEBASTIÃƒO FRANCISCO GOMES JUNIOR",
+            descricaoSituacao: "Deferido",
+          descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "POR AMOR A CATALÃƒO",
+    ,       cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PROS",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000008429,
+            nomeUrna: "JURANDIR",
+            numero: 15102,
+            nomeCompleto: "JURANDIR ANTONIO DA SILVA",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CORAGEM PARA RECONSTRUIR I,,
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PMDB",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: true
+        },
+        {
+            id: 90000014880,
+            nomeUrna: "JUTAÃ",
+            numero: 17777,
+            nomeCompleto: "JUTAI ALVES MARTINS",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO, TRABALHO E JUVEN,UDE",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PSL",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000021995,
+            nomeUrna: "KEILA DA PASTORAL FAMILIAR",
+            numero: 27712,
+            nomeCompleto: "KEILA BORGES DE SOUZA",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CORAGEM PARA RECONSTRUIR I,I",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PSDC",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000025044,
+            nomeUrna: "KÃ‰LIDA",
+            numero: 35000,
+            nomeCompleto: "KÃ‰LIDA GALDINO MACHADO",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO NO CAMINHO CERTO",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PMB",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000022107,
+            nomeUrna: "KELLY",
+            numero: 44554,
+            nomeCompleto: "KELLY CRISTINA DA SILVA VIEIRA",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "Coragem Para Reconstruir I,",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PRP",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000022165,
+            nomeUrna: "KELLY CAROLINE",
+            numero: 43015,
+                Completo: "KELLY CAROLINE SANTANA BARBOSA",
+            descricaoSituacao: "Deferido",
+          descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "POR AMOR A CATALÃƒO",
+    ,       cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PV",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000008439,
+            nomeUrna: "KENIA",
+            numero: 15115,
+            nomeCompleto: "KENIA APARECIDA HONORATO TEODORO",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CORAGEM PARA RECONSTRUIR I,,
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PMDB",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000021996,
+            nomeUrna: "KENNEDY AVELAR",
+            numero: 36007,
+            nomeCompleto: "KENNEDY FRANCISCO DE AVELAR",
+            descricaoSituacao: "RenÃºncia",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CORAGEM PARA RECONSTRUIR I,I",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PTC",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000022168,
+            nomeUrna: "KETLIN VIEIRA",
+            numero: 43000,
+                Completo: "KETLIN VIEIRA DE ALMEIDA",
+            descricaoSituacao: "Deferido",
+          descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "POR AMOR A CATALÃƒO",
+    ,       cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PV",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000008447,
+            nomeUrna: "LAURITA",
+            numero: 15456,
+            nomeCompleto: "LAURITA DE FATIMA FELIPE DA SILVA VIEIRA",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CORAGEM PARA RECONSTRUIR I,,
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PMDB",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000017794,
+            nomeUrna: "LÃZARO ALEIXO",
+            numero: 19045,
+            nomeCompleto: "LÃZARO RIBEIRO DOS SANTOS",
+            descricaoSituacao: "Indeferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO NÃƒO PODE PARAR",,            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PTN",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000021997,
+            nomeUrna: "LAZINHO",
+            numero: 36104,
+            nomeCompleto: "LAZARO ANTÃ”NIO DE OLIVEIRA",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CORAGEM PARA RECONSTRUIR I,I",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PTC",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000022086,
+            nomeUrna: "LELIO CABELEIREIRO",
+            numero: 44333,
+            nomeCompleto: "LELIO JOAQUIM DA COSTA",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "Coragem Para Reconstruir I,",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PRP",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000017799,
+            nomeUrna: "LEONARDO BUENO",
+            numero: 40333,
+            nomeCompleto: "LEONARDO COSTA BUENO",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO NÃƒO PODE PARAR",,            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PSB",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: true
+        },
+        {
+            id: 90000022097,
+            nomeUrna: "LEVI",
+            numero: 25666,
+            nomeCompleto: "LEVI SOUZA BORGES",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "Coragem Para Reconstruir I,",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "DEM",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000022150,
+            nomeUrna: "LINDOMAR CALHEIRO",
+            numero: 90111,
+                Completo: "LINDOMAR VIEIRA DA FONSECA",
+            descricaoSituacao: "Deferido",
+          descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "POR AMOR A CATALÃƒO",
+    ,       cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PROS",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000022102,
+            nomeUrna: "LORRANE",
+            numero: 25112,
+            nomeCompleto: "LORRANE DE OLIVEIRA SILVA",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "Coragem Para Reconstruir I,",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "DEM",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000017790,
+            nomeUrna: "LUCÃ‰LIA BORGES",
+            numero: 19789,
+            nomeCompleto: "LUCÃ‰LIA MARIA BORGES",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO NÃƒO PODE PARAR",,            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PTN",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000022152,
+            nomeUrna: "LUCIA",
+            numero: 90112,
+                Completo: "MARIA LUCIA RIBEIRO",
+            descricaoSituacao: "Deferido",
+          descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "POR AMOR A CATALÃƒO",
+    ,       cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PROS",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000008441,
+            nomeUrna: "LUISAO RADIADOR",
+            numero: 15111,
+            nomeCompleto: "LUISMAR FRANCISCO NASCIMENTO",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CORAGEM PARA RECONSTRUIR I,,
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PMDB",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000021984,
+            nomeUrna: "LUIS DO DOCE",
+            numero: 54115,
+            nomeCompleto: "LUIZ CARLOS PEREIRA DA SILVA",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CORAGEM PARA RECONSTRUIR I,I",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PPL",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000022139,
+            nomeUrna: "LUIZ CLAUDIO BLOG DA VERDADE",
+            numero: 90456,
+                Completo: "LUIZ CLAUDIO ELIAS",
+            descricaoSituacao: "Deferido",
+          descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "POR AMOR A CATALÃƒO",
+    ,       cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PROS",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000021981,
+            nomeUrna: "LUIZ DA FUNDAÃ‡ÃƒO",
+            numero: 54111,
+            nomeCompleto: "LUIZ CARLOS MARIANO DA SILVA",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CORAGEM PARA RECONSTRUIR I,I",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PPL",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000014871,
+            nomeUrna: "LUIZ PAMONHEIRO",
+            numero: 10900,
+            nomeCompleto: "LUIZ SOCORRO MOREIRA",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO, TRABALHO E JUVEN,UDE",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PRB",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000021999,
+            nomeUrna: "LUIZ PIPOCA",
+            numero: 36051,
+            nomeCompleto: "LUIZ DE OLIVEIRA CUSTÃ“DIO",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CORAGEM PARA RECONSTRUIR I,I",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PTC",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000022104,
+            nomeUrna: "MACIEL BATALHA",
+            numero: 25111,
+            nomeCompleto: "MACIEL OLIVEIRA BATALHA",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "Coragem Para Reconstruir I,",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "DEM",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000022078,
+            nomeUrna: "MARCÃƒO DA CORUJA",
+            numero: 44111,
+            nomeCompleto: "MARCOS ANTONIO INACIO",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "Coragem Para Reconstruir I,",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PRP",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000017791,
+            nomeUrna: "MARCELO",
+            numero: 19111,
+            nomeCompleto: "MARCELO MARTINS DA SILVA",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO NÃƒO PODE PARAR",,            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PTN",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000022000,
+            nomeUrna: "MARCELO MELO",
+            numero: 36600,
+            nomeCompleto: "MARCELO MELO BORGES",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CORAGEM PARA RECONSTRUIR I,I",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PTC",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000022105,
+            nomeUrna: "MARCIEL TUDO CAIPIRA",
+            numero: 25123,
+            nomeCompleto: "MARCIEL DE OLIVEIRA MESQUITA",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "Coragem Para Reconstruir I,",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "DEM",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000022001,
+            nomeUrna: "MARCINHO DO TEOBALDO",
+            numero: 36200,
+            nomeCompleto: "MARCIO MARIANO DOS SANTOS",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CORAGEM PARA RECONSTRUIR I,I",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PTC",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000014840,
+            nomeUrna: "MARGARIDA BELCHOR",
+            numero: 35000,
+            nomeCompleto: "MARGARIDA BELCHO DE OLIVEIRA",
+            descricaoSituacao: "RenÃºncia",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO NO CAMINHO CERTO",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PMB",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000017788,
+            nomeUrna: "MARIA CAROLINA",
+            numero: 18222,
+            nomeCompleto: "MARIA CAROLINA FELÃCIO NETTO",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO NÃƒO PODE PARAR",,            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "REDE",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000003176,
+            nomeUrna: "MARIA DE JESUS",
+            numero: 50000,
+                        nomeCompleto: "MARIA DE JESUS MESQUITA",
+ escricaoSexo: null,
+ ferido",
+            nacionalioTotalizacao: "Concorrendo",
+            nomeColigacao: "PSOL",
+            cargo: ,
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PSOL",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000022088,
+            nomeUrna: "MARIA ENFERMEIRA",
+            numero: 44222,
+            nomeCompleto: "MARIA JOSE SOARES ALMEIDA DOS SANTOS",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "Coragem Para Reconstruir I,",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PRP",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000014832,
+            nomeUrna: "MARIA MADALENA (A MADALENA)",
+            numero: 55055,
+            nomeCompleto: "MARIA MADALENA PEREIRA SILVA",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO NO CAMINHO CERTO",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PSD",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000014824,
+            nomeUrna: "MARIÃNHA DO PRIMAVERA",
+            numero: 55456,
+            nomeCompleto: "MARIA DE FÃTIMA DA COSTA AMORIM",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO NO CAMINHO CERTO",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PSD",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000022003,
+            nomeUrna: "MARILENE",
+            numero: 36444,
+            nomeCompleto: "MARILENE PINTO DE OLIVEIRA",
+            descricaoSituacao: "RenÃºncia",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CORAGEM PARA RECONSTRUIR I,I",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PTC",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000014841,
+            nomeUrna: "MARILEUSA BRANDÃƒO",
+            numero: 35300,
+            nomeCompleto: "MARILEUSA BRANDÃƒO SILVA",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO NO CAMINHO CERTO",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PMB",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000008454,
+            nomeUrna: "MARILLIA",
+            numero: 15155,
+            nomeCompleto: "MARILIA PACELLI VAZ",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CORAGEM PARA RECONSTRUIR I,,
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PMDB",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000022143,
+            nomeUrna: "MARISTELA CARAPINAS",
+            numero: 90333,
+                Completo: "MARISTELA FRANCISCA DE MESQUITA LIMA",
+            descricaoSituacao: "Deferido",
+          descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "POR AMOR A CATALÃƒO",
+    ,       cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PROS",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000022004,
+            nomeUrna: "MARLENE MACEDO",
+            numero: 27123,
+            nomeCompleto: "MARLENE MARIA DE MACEDO",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CORAGEM PARA RECONSTRUIR I,I",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PSDC",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000014833,
+            nomeUrna: "MARQUIM CORRETOR",
+            numero: 55045,
+            nomeCompleto: "MARCO AURÃ‰LIO DUARTE",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO NO CAMINHO CERTO",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PSD",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000014843,
+            nomeUrna: "MARQUINHO ADVOGADO",
+            numero: 55000,
+            nomeCompleto: "MARCO ANTONIO JORGE DAHAS",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO NO CAMINHO CERTO",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PSD",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000003175,
+            nomeUrna: "MASCOTE",
+            numero: 50050,
+                        nomeCompleto: "ADMILSON MARINHO DE LIMA",
+ escricaoSexo: null,
+ ferido",
+            nacionalioTotalizacao: "Concorrendo",
+            nomeColigacao: "PSOL",
+            cargo: ,
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PSOL",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000022100,
+            nomeUrna: "MAURO MINHOCA LEONEL",
+            numero: 25638,
+            nomeCompleto: "MAURO LEONEL",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "Coragem Para Reconstruir I,",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "DEM",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000014863,
+            nomeUrna: "MEIRE ANDRADE",
+            numero: 10156,
+            nomeCompleto: "MEIRE MARIA DE ANDRADE",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO, TRABALHO E JUVEN,UDE",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PRB",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000022108,
+            nomeUrna: "MICHELE",
+            numero: 44200,
+            nomeCompleto: "MICHELE FABRICIO DA CAMARA PEREIRA",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "Coragem Para Reconstruir I,",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PRP",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000022141,
+            nomeUrna: "MICHELI",
+            numero: 90000,
+                Completo: "MICHELI SOUZA CALDEIRA",
+            descricaoSituacao: "Deferido",
+          descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "POR AMOR A CATALÃƒO",
+    ,       cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PROS",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000022082,
+            nomeUrna: "NATANAEL",
+            numero: 44101,
+            nomeCompleto: "NATANAEL FELIPE DE SOUZA",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "Coragem Para Reconstruir I,",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PRP",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000014862,
+            nomeUrna: "NORMA CABELEIREIRA",
+            numero: 10150,
+            nomeCompleto: "NORMELY PEREIRA ROSA",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO, TRABALHO E JUVEN,UDE",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PRB",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000008459,
+            nomeUrna: "ORLANDO DO GAS AVENIDA",
+            numero: 14222,
+            nomeCompleto: "ANEZIO ORLANDO",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CORAGEM PARA RECONSTRUIR I,,
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PTB",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000021985,
+            nomeUrna: "ORLANDO GATO",
+            numero: 20100,
+            nomeCompleto: "ORLANDO NELSON FERREIRA",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CORAGEM PARA RECONSTRUIR I,I",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PSC",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000008453,
+            nomeUrna: "OSIRES ZIM",
+            numero: 14150,
+            nomeCompleto: "OSIRES GONÃ‡ALVES",
+            descricaoSituacao: "RenÃºncia",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CORAGEM PARA RECONSTRUIR I,,
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PTB",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000022094,
+            nomeUrna: "OSIRIS",
+            numero: 25233,
+            nomeCompleto: "OZIRES COSTA PIRES",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "Coragem Para Reconstruir I,",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "DEM",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000022147,
+            nomeUrna: "OZAR FERNANDES JUNIOR",
+            numero: 90888,
+                Completo: "OZAR FERNANDES JUNIOR",
+            descricaoSituacao: "Deferido",
+          descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "POR AMOR A CATALÃƒO",
+    ,       cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PROS",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000022163,
+            nomeUrna: "PAMELA",
+            numero: 43151,
+                Completo: "PAMELA VIEIRA DE ALMEIDA",
+            descricaoSituacao: "Deferido",
+          descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "POR AMOR A CATALÃƒO",
+    ,       cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PV",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000021998,
+            nomeUrna: "PASTORA LUCI",
+            numero: 36000,
+            nomeCompleto: "LUCI MAURINA DE SOUSA",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CORAGEM PARA RECONSTRUIR I,I",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PTC",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000014859,
+            nomeUrna: "PASTOR ANTÃ”NIO",
+            numero: 10333,
+            nomeCompleto: "ANTÃ”NIO CARLOS DOS SANTOS",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO, TRABALHO E JUVEN,UDE",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PRB",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000022145,
+            nomeUrna: "PAULA RESENDE",
+            numero: 90147,
+                Completo: "PAULA CRISTINA MAGALHAES CAVALCANTI",
+            descricaoSituacao: "Deferido",
+          descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "POR AMOR A CATALÃƒO",
+    ,       cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PROS",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000022106,
+            nomeUrna: "PAULINHO",
+            numero: 25800,
+            nomeCompleto: "PAULO MOREIRA DO VALE",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "Coragem Para Reconstruir I,",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "DEM",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: true
+        },
+        {
+            id: 90000022077,
+            nomeUrna: "PAULINHO DO FARID NAHAS",
+            numero: 44100,
+            nomeCompleto: "PAULO ROBERTO DAVID NAHAS",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "Coragem Para Reconstruir I,",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PRP",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000008442,
+            nomeUrna: "PAULINHO SÃƒO JOÃƒO",
+            numero: 15000,
+            nomeCompleto: "PAULO DE TARSO JACOB",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CORAGEM PARA RECONSTRUIR I,,
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PMDB",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000014836,
+            nomeUrna: "PAULO ARRUDA",
+            numero: 22222,
+            nomeCompleto: "PAULO CESAR SANTOS",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO NO CAMINHO CERTO",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PR",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000014825,
+            nomeUrna: "PAULO CÃ‰SAR",
+            numero: 55100,
+            nomeCompleto: "PAULO CÃ‰SAR PEREIRA",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO NO CAMINHO CERTO",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PSD",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: true
+        },
+        {
+            id: 90000022085,
+            nomeUrna: "PC DA RELOJOARIA",
+            numero: 44007,
+            nomeCompleto: "PAULO CESAR DA SILVA",
+            descricaoSituacao: "Indeferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "Coragem Para Reconstruir I,",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PRP",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000014830,
+            nomeUrna: "PEDRINHO",
+            numero: 55300,
+            nomeCompleto: "PEDRO HENRIQUE DE MACEDO SILVA",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO NO CAMINHO CERTO",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PSD",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: true
+        },
+        {
+            id: 90000017795,
+            nomeUrna: "PROFESSOR ALEXANDRE",
+            numero: 40000,
+            nomeCompleto: "ALEXANDRE DAHDAH BORGES",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO NÃƒO PODE PARAR",,            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PSB",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000022160,
+            nomeUrna: "PROFESSORA PATRÃCIA",
+            numero: 65000,
+                Completo: "PATRICIA EUGENIA ROSA CASTRO",
+            descricaoSituacao: "Deferido",
+          descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "POR AMOR A CATALÃƒO",
+    ,       cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PC do B",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000022002,
+            nomeUrna: "PROFESSORA SAÃ‡ÃƒO",
+            numero: 27477,
+            nomeCompleto: "MARIA CONSOLAÃ‡ÃƒO PINTO PEREIRA",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CORAGEM PARA RECONSTRUIR I,I",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PSDC",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000017789,
+            nomeUrna: "PROFESSOR MARCELO MENDONÃ‡A",
+            numero: 18123,
+            nomeCompleto: "MARCELO RODRIGUES MENDONÃ‡A",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO NÃƒO PODE PARAR",,            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "REDE",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000014828,
+            nomeUrna: "PROF SOUSA FILHO",
+            numero: 55123,
+            nomeCompleto: "ARCILON DE SOUSA FILHO",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO NO CAMINHO CERTO",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PSD",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000017783,
+            nomeUrna: "RAFAEL TOMAZ",
+            numero: 18888,
+            nomeCompleto: "RAFAEL FERREIRA TOMAZ",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO NÃƒO PODE PARAR",,            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "REDE",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000008451,
+            nomeUrna: "REGIANE",
+            numero: 14115,
+            nomeCompleto: "REGIANE LARA DE JESUS MACHADO",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CORAGEM PARA RECONSTRUIR I,,
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PTB",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000017781,
+            nomeUrna: "REGINA FÃ‰LIX",
+            numero: 45123,
+            nomeCompleto: "REGINA FÃ‰LIX DE OLIVEIRA AMORIM MATIAS",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO NÃƒO PODE PARAR",,            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PSDB",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: true
+        },
+        {
+            id: 90000022005,
+            nomeUrna: "REGINALDO FARIA",
+            numero: 27000,
+            nomeCompleto: "REGINALDO DE FARIA",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CORAGEM PARA RECONSTRUIR I,I",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PSDC",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000014874,
+            nomeUrna: "REGINALDO SILVA",
+            numero: 10222,
+            nomeCompleto: "REGINALDO DA CRUZ SILVA",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO, TRABALHO E JUVEN,UDE",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PRB",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000014865,
+            nomeUrna: "RITA ESTRELA",
+            numero: 31122,
+            nomeCompleto: "RITA DE CÃSSIA DA COSTA ESTRELA",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO, TRABALHO E JUVEN,UDE",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PHS",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000021983,
+            nomeUrna: "ROBERTO CARLOS",
+            numero: 54110,
+            nomeCompleto: "CARLOS ROBERTO FRANCISCO DE ASSUNÃ‡AO",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CORAGEM PARA RECONSTRUIR I,I",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PPL",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000014829,
+            nomeUrna: "ROBIM",
+            numero: 55111,
+            nomeCompleto: "ROBSON VIEIRA DE MATOS",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO NO CAMINHO CERTO",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PSD",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000008448,
+            nomeUrna: "RODRIGÃƒO",
+            numero: 77777,
+            nomeCompleto: "RODRIGO ALVES CARVELO",
+            descricaoSituacao: "Deferido com recurso",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CORAGEM PARA RECONSTRUIR I,,
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "SD",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000022136,
+            nomeUrna: "RONI DA AUTO ESCOLA",
+            numero: 90115,
+                Completo: "RONI DA COSTA LIMA",
+            descricaoSituacao: "Deferido",
+          descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "POR AMOR A CATALÃƒO",
+    ,       cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PROS",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000022158,
+            nomeUrna: "RONILSON BAÃ‰",
+            numero: 65222,
+                Completo: "RONILSON PEREIRA",
+            descricaoSituacao: "Deferido",
+          descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "POR AMOR A CATALÃƒO",
+    ,       cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PC do B",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000017784,
+            nomeUrna: "ROSÃ‚NGELA DOS DIABÃ‰TICOS",
+            numero: 45555,
+            nomeCompleto: "ROSÃ‚NGELA SANTANA FERREIRA",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO NÃƒO PODE PARAR",,            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PSDB",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000022084,
+            nomeUrna: "SAMUEL LACERDA",
+            numero: 44400,
+            nomeCompleto: "SAMUEL LACERDA PINTO",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "Coragem Para Reconstruir I,",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PRP",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000008431,
+            nomeUrna: "SANDRA PAULA",
+            numero: 15600,
+            nomeCompleto: "SANDRA PAULA DA SILVA COSTA",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CORAGEM PARA RECONSTRUIR I,,
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PMDB",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000014860,
+            nomeUrna: "SARGENTO AGUINON",
+            numero: 10193,
+            nomeCompleto: "AGUINON BATISTA COSTA",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO, TRABALHO E JUVEN,UDE",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PRB",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000008433,
+            nomeUrna: "SARGENTO ANISIO",
+            numero: 15190,
+            nomeCompleto: "ANÃSIO PEREIRA",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CORAGEM PARA RECONSTRUIR I,,
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PMDB",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: true
+        },
+        {
+            id: 90000021994,
+            nomeUrna: "SARGENTO BATISTA",
+            numero: 36190,
+            nomeCompleto: "JOÃƒO BATISTA DE OLIVEIRA",
+            descricaoSituacao: "Indeferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CORAGEM PARA RECONSTRUIR I,I",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PTC",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000022162,
+            nomeUrna: "SAULINHO DA CENTRAL",
+            numero: 43123,
+                Completo: "SAULO ALVES",
+            descricaoSituacao: "Deferido",
+          descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "POR AMOR A CATALÃƒO",
+    ,       cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PV",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000014839,
+            nomeUrna: "SELMA",
+            numero: 22000,
+            nomeCompleto: "SELMA MARIA BARBOSA DIAS",
+            descricaoSituacao: "RenÃºncia",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO NO CAMINHO CERTO",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PR",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000008435,
+            nomeUrna: "SELMA DO PONTAL",
+            numero: 15333,
+            nomeCompleto: "SELMA DE FATIMA DA SILVA",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CORAGEM PARA RECONSTRUIR I,,
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PMDB",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000022007,
+            nomeUrna: "SÃ‰RGIO AUGUSTO",
+            numero: 27111,
+            nomeCompleto: "SERGIO AUGUSTO DE OLIVEIRA",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CORAGEM PARA RECONSTRUIR I,I",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PSDC",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000022083,
+            nomeUrna: "SILVANIO DO IDESC",
+            numero: 44144,
+            nomeCompleto: "JOSE SILVANIO DE SOUZA SANTOS",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "Coragem Para Reconstruir I,",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PRP",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000014842,
+            nomeUrna: "SILVANO MECÃ‚NICO",
+            numero: 22123,
+            nomeCompleto: "SILVANO BATISTA DA SILVA",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO NO CAMINHO CERTO",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PR",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: true
+        },
+        {
+            id: 90000022148,
+            nomeUrna: "SILVINHA",
+            numero: 90123,
+                Completo: "SILVIA APARECIDA ROSA",
+            descricaoSituacao: "Deferido",
+          descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "POR AMOR A CATALÃƒO",
+    ,       cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PROS",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: true
+        },
+        {
+            id: 90000014873,
+            nomeUrna: "STHEFANE",
+            numero: 10444,
+            nomeCompleto: "STHEFANE GOMES BATISTA FLÃVIO",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO, TRABALHO E JUVEN,UDE",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PRB",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000022008,
+            nomeUrna: "TADEU DO GALO",
+            numero: 27115,
+            nomeCompleto: "VANDERVAL THADEU FERREIRA CHAGAS",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CORAGEM PARA RECONSTRUIR I,I",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PSDC",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000022080,
+            nomeUrna: "TEREZA PAULISTA",
+            numero: 44416,
+            nomeCompleto: "TEREZA PAULISTA PACHECO",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "Coragem Para Reconstruir I,",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PRP",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000022151,
+            nomeUrna: "THIAGO ODONTOMED",
+            numero: 90100,
+                Completo: "THIAGO JOSE MARIA RODRIGUES",
+            descricaoSituacao: "Deferido",
+          descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "POR AMOR A CATALÃƒO",
+    ,       cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PROS",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000008446,
+            nomeUrna: "THIAGO SIMOES",
+            numero: 15123,
+            nomeCompleto: "THIAGO SIMOES GOMES",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CORAGEM PARA RECONSTRUIR I,,
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PMDB",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000008450,
+            nomeUrna: "TIAOZINHO DO PONTAL",
+            numero: 14111,
+            nomeCompleto: "SEBASTIAO SILVINO DA SILVA",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CORAGEM PARA RECONSTRUIR I,,
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PTB",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000022095,
+            nomeUrna: "UILMA",
+            numero: 25816,
+            nomeCompleto: "UILMA FERREIRA BORGES",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "Coragem Para Reconstruir I,",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "DEM",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000022153,
+            nomeUrna: "VALDEON FERREIRA",
+            numero: 90110,
+                Completo: "VALDEON FERREIRA DA SILVA",
+            descricaoSituacao: "Deferido",
+          descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "POR AMOR A CATALÃƒO",
+    ,       cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PROS",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000022109,
+            nomeUrna: "VALERIA",
+            numero: 44999,
+            nomeCompleto: "VALERIA DE JESUS VAZ",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "Coragem Para Reconstruir I,",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PRP",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000017787,
+            nomeUrna: "VALMIR PIRES",
+            numero: 45510,
+            nomeCompleto: "VALMIR PIRES ROSA",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO NÃƒO PODE PARAR",,            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PSDB",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: true
+        },
+        {
+            id: 90000008434,
+            nomeUrna: "VANDEVAL FLORISBELO",
+            numero: 15101,
+            nomeCompleto: "VANDEVAL FLORISBELO DE AQUINO",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CORAGEM PARA RECONSTRUIR I,,
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PMDB",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: true
+        },
+        {
+            id: 90000022009,
+            nomeUrna: "VAULIZETE CANDIDA",
+            numero: 36111,
+            nomeCompleto: "VAULIZETE CANDIDA FERREIRA CAMILO",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CORAGEM PARA RECONSTRUIR I,I",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PTC",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000025039,
+            nomeUrna: "VERA LUCIA",
+            numero: 40678,
+            nomeCompleto: "VERA LUCIA POLICENA BORGES",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO NÃƒO PODE PARAR",,            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PSB",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000022096,
+            nomeUrna: "VERANILDE",
+            numero: 25755,
+            nomeCompleto: "VERANILDE VERAS GOMES DA SILVA",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "Coragem Para Reconstruir I,",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "DEM",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000022156,
+            nomeUrna: "WELINGTON CESAR",
+            numero: 13123,
+                Completo: "WELINGTON CESAR SILVA",
+            descricaoSituacao: "Deferido",
+          descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "POR AMOR A CATALÃƒO",
+    ,       cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PT",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000014870,
+            nomeUrna: "WILMARÃƒO",
+            numero: 10110,
+            nomeCompleto: "VILMAR GOMES MOREIRA",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO, TRABALHO E JUVEN,UDE",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PRB",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000022010,
+            nomeUrna: "WLADIMIR",
+            numero: 27346,
+            nomeCompleto: "WLADIMIR BATISTA DA COSTA",
+            descricaoSituacao: "Deferido",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CORAGEM PARA RECONSTRUIR I,I",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PSDC",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000022159,
+            nomeUrna: "ZÃ‰ FERREIRA",
+            numero: 65165,
+                Completo: "JOSE FERREIRA DA COSTA",
+            descricaoSituacao: "Deferido",
+          descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "POR AMOR A CATALÃƒO",
+    ,       cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PC do B",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        },
+        {
+            id: 90000014844,
+            nomeUrna: "ZÃ‰ TOMATE",
+            numero: 55110,
+            nomeCompleto: "JOSÃ‰ CARLOS ELIAS DA SILVA",
+            descricaoSituacao: "RenÃºncia",
+            descricaoTotalizacao: "Concorrendo",
+            nomeColigacao: "CATALÃƒO NO CAMINHO CERTO",
+            cargo: {
+                codigo: 13,
+                nome: "Vereador",
+                contagem: 0
+            },
+                partido: {
+                numero: 0,
+                sigla: "PSD",
+                nome: null
+            },
+            eleicao: {
+                id: 2,
+                siglaUF: null,
+                ano: 2016,
+                descricaoEleicao: "2016"
+            },
+            st_REELEICAO: false
+        }
+    ]
+}
